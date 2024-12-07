@@ -1,2 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://Meekdai.github.io/Gmeek-template</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://Meekdai.github.io/Gmeek-template</link></image><lastBuildDate>Thu, 14 Mar 2024 09:17:29 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>请接着之后的安装步骤执行</title><link>https://Meekdai.github.io/Gmeek-template/post/qing-jie-zhao-zhi-hou-de-an-zhuang-bu-zou-zhi-xing.html</link><description>如果你点击了`READM.md`的链接后，看到了这个页面，请继续之后的安装步骤执行。</description><guid isPermaLink="true">https://Meekdai.github.io/Gmeek-template/post/qing-jie-zhao-zhi-hou-de-an-zhuang-bu-zou-zhi-xing.html</guid><pubDate>Thu, 14 Mar 2024 09:15:10 +0000</pubDate></item><item><title>这是Gmeek模板仓库</title><link>https://Meekdai.github.io/Gmeek-template/post/zhe-shi-Gmeek-mo-ban-cang-ku.html</link><description>通过这个模板创建库，可以大大减少部署Gmeek博客的配置步骤。</description><guid isPermaLink="true">https://Meekdai.github.io/Gmeek-template/post/zhe-shi-Gmeek-mo-ban-cang-ku.html</guid><pubDate>Wed, 20 Dec 2023 07:42:24 +0000</pubDate></item></channel></rss>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://Fedby.github.io</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://Fedby.github.io</link></image><lastBuildDate>Sat, 07 Dec 2024 08:14:45 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>入门训练 Fibonacci数列</title><link>https://Fedby.github.io/post/ru-men-xun-lian-%20Fibonacci-shu-lie.html</link><description>#include &lt;bits/stdc++.h&gt;&#13;
+using namespace std;&#13;
+int  fb(int n){&#13;
+    int a[1000001];&#13;
+    a[1]=1;&#13;
+    a[2]=1;&#13;
+    for(int i=3;i&lt;=n;i++){&#13;
+        a[i]=a[i-1]+a[i-2];&#13;
+        if(a[i]&gt;=10007){&#13;
+            a[i]-=10007;&#13;
+        }&#13;
+    }&#13;
+    cout&lt;&lt;a[n];&#13;
+}&#13;
+int main() {&#13;
+    int n;&#13;
+    cin&gt;&gt;n;&#13;
+    fb(n);&#13;
+ return 0;&#13;
+}。</description><guid isPermaLink="true">https://Fedby.github.io/post/ru-men-xun-lian-%20Fibonacci-shu-lie.html</guid><pubDate>Sat, 07 Dec 2024 08:14:03 +0000</pubDate></item></channel></rss>
