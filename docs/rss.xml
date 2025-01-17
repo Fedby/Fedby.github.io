@@ -1,23 +1,55 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Fedby的博客</title><link>https://Fedby.github.io</link><description>Blog description</description><copyright>Fedby的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/178917243?v=4</url><title>avatar</title><link>https://Fedby.github.io</link></image><lastBuildDate>Sat, 11 Jan 2025 08:22:14 +0000</lastBuildDate><managingEditor>Fedby的博客</managingEditor><ttl>60</ttl><webMaster>Fedby的博客</webMaster><item><title>三角形的分类</title><link>https://Fedby.github.io/post/san-jiao-xing-de-fen-lei.html</link><description>#include&lt;bits/stdc++.h&gt;&#13;
-using namespace std;&#13;
-int main(){&#13;
-	int a,b,c;&#13;
-	cin&gt;&gt;a&gt;&gt;b&gt;&gt;c;&#13;
-	if(a+b+c!=180)&#13;
-		cout&lt;&lt;'Error';&#13;
-	else if(a==90&amp;&amp;b==45 || b==90&amp;&amp;a==45 || c==90&amp;&amp;a==45)&#13;
-		cout&lt;&lt;'Isosceles right';&#13;
-	else if(a==60&amp;&amp;b==60)&#13;
-		cout&lt;&lt;'Equilateral';&#13;
-	else if(a==90||b==90||c==90)&#13;
-		cout&lt;&lt;'Right';&#13;
-	else if(a==b||a==c||b==c)&#13;
-		cout&lt;&lt;'Isosceles'; &#13;
-	else 	cout&lt;&lt;'Scalene';		&#13;
-	 &#13;
-	&#13;
-	return 0;&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Fedby的博客</title><link>https://Fedby.github.io</link><description>Blog description</description><copyright>Fedby的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/178917243?v=4</url><title>avatar</title><link>https://Fedby.github.io</link></image><lastBuildDate>Fri, 17 Jan 2025 09:45:28 +0000</lastBuildDate><managingEditor>Fedby的博客</managingEditor><ttl>60</ttl><webMaster>Fedby的博客</webMaster><item><title>三角形的分类</title><link>https://Fedby.github.io/post/san-jiao-xing-de-fen-lei.html</link><description>#include&lt;bits/stdc++.h&gt;
+
+
+
+using namespace std;
+
+
+
+int main(){
+
+
+	int a,b,c;
+
+
+	cin&gt;&gt;a&gt;&gt;b&gt;&gt;c;
+
+
+	if(a+b+c!=180)
+
+
+		cout&lt;&lt;'Error';
+
+
+	else if(a==90&amp;&amp;b==45 || b==90&amp;&amp;a==45 || c==90&amp;&amp;a==45)
+
+
+		cout&lt;&lt;'Isosceles right';
+
+
+	else if(a==60&amp;&amp;b==60)
+
+
+		cout&lt;&lt;'Equilateral';
+
+
+	else if(a==90||b==90||c==90)
+
+
+		cout&lt;&lt;'Right';
+
+
+	else if(a==b||a==c||b==c)
+
+
+		cout&lt;&lt;'Isosceles'; 
+
+
+	else 	cout&lt;&lt;'Scalene';		
+	 
+	
+	return 0;
 }。</description><guid isPermaLink="true">https://Fedby.github.io/post/san-jiao-xing-de-fen-lei.html</guid><pubDate>Sat, 11 Jan 2025 08:21:45 +0000</pubDate></item><item><title>哈哈哈</title><link>https://Fedby.github.io/post/ha-ha-ha.html</link><description>哈哈哈。</description><guid isPermaLink="true">https://Fedby.github.io/post/ha-ha-ha.html</guid><pubDate>Thu, 19 Dec 2024 13:26:07 +0000</pubDate></item><item><title>入门训练 Fibonacci数列</title><link>https://Fedby.github.io/post/ru-men-xun-lian-%20Fibonacci-shu-lie.html</link><description>#include &lt;bits/stdc++.h&gt;&#13;
 using namespace std;&#13;
 int  fb(int n){&#13;
